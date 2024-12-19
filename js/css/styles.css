@@ -1,0 +1,58 @@
+/* General body styles */
+body {
+    font-family: 'Times New Roman', Times, serif; /* Font family for the page */
+    color: #B0B0B0;  /* Font color set to light gray */
+    background-color: #333333;  /* Dark gray background for contrast */
+    margin: 0;
+    padding: 0;
+}
+
+/* Title Styling */
+h1 {
+    font-size: 100px;  /* Large font size for the main title */
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;  /* White color for the title */
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+/* Section headers styling (h2, h3, h4, h5, h6) */
+h2, h3, h4, h5, h6 {
+    color: #ffffff; /* White color for all section headers */
+    font-size: 35px; /* Increased font size for visibility */
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Section Styling */
+section {
+    padding: 30px;
+    color: white;
+}
+
+/* Content box for sections with unique style */
+.content-box {
+    background-color: #000000;  /* Black background for content boxes */
+    padding: 20px;
+    border-radius: 10px;  /* Rounded corners for aesthetic appeal */
+    margin: 20px auto;
+    max-width: 1000px;
+    border: 1px solid #444;  /* Subtle border for contrast */
+}
+
+/* Styling for hyperlinks inside the content box */
+.content-box a {
+    color: #00bfff;  /* Bright blue color for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.content-box a:hover {
+    color: #ff6347;  /* Change color on hover to a warm red */
+}
+
+
+<div class='tableauPlaceholder' id='viz1733355205100' style='position: relative'><noscript><a href='#'><img alt='PlayerViz ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Jo&#47;JordanCareerScoring&#47;PlayerViz&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='JordanCareerScoring&#47;PlayerViz' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Jo&#47;JordanCareerScoring&#47;PlayerViz&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1733355205100');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1600px';vizElement.style.height='1417px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+</html>
